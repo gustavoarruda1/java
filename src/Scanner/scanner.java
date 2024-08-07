@@ -34,7 +34,7 @@ public class scanner {
 		mundial = leia.nextInt();
 		
 		System.out.println("Seu time é: " + time
-							+ "\ne tem " + mundial + "mundiais"
+							+ "\ne tem " + mundial + " mundiais"
 				);
 	}
 	
