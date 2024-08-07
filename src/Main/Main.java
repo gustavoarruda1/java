@@ -22,11 +22,11 @@ public class Main {
 	// Main - sempre que executarmos o código, o JAVA procurará o método Main
 	main(
 			
-			// String - indica que o args é um parâmetro de array do tipo string
-			String[]
+	// String - indica que o args é um parâmetro de array do tipo string
+	tring[]
 					
-					// args - é um parâmetro 
-					args) {
+	// args - é um parâmetro 
+	args) {
 		
 	}
 	
