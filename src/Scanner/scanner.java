@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class scanner {
 
-	public static void main(String[] args) {
-		
     // classe nome = novo método (console.entrada)
     Scanner leia = new Scanner(System.in);
     // classe nome = novo método (console.entrada)
@@ -31,9 +29,21 @@ public class scanner {
 
     System.out.println("Quantos mundiais ele tem? ");
     mundial = leia.nextInt();
+
+    System.out.println("Seu time é " + time + " e tem " + mundial + " mundiais");
+
+    int camisa;
+    float preco;
+
+    System.out.println("Quantas camisas você comprou? ");
+    camisa = leia.nextInt();
+
+    System.out.println("Quanto você pagou por elas? ");
+    preco = leia.nextFloat();
+
     leia.close();
 
-    System.out.println("Seu time é: " + time + " e tem " + mundial + " mundiais");
+    System.out.println("Você comprou " + camisa + " camisas e pagou " + preco + " por elas.");
 	}
 	
 }
